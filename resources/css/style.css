@@ -30,9 +30,7 @@ header {
 		margin-right:1rem;
 	}
 
-	.subhead {
-		display:flex;
-		flex-direction: column;
+	.subhead {		
 		height: 25rem;
 		width: 100%;
 		background:url("../img/moto.jpeg");
@@ -41,27 +39,39 @@ header {
 		background-position: bottom;
 	}
 
-	.arrivalbox {
-		display: flex;
-		flex-direction: column;
-		width: 24rem;
+	.arrivalbox {		
+		position: relative;
+		top: 9rem;
+		width: 20rem;
 		background-color: black;
+		padding: 2em 3em;
 	}
 
 	.arrivalbox #span1 {
+		display: block;
 		font-size: 1rem;
-		font-weight: bold;
-		margin-top: 2rem;
-		margin-bottom: 0.25rem;
-		margin-left: 3rem;
+		font-weight: bold;		
 		opacity: 0.8;
+		margin-bottom: .25rem;
 	}
 
-	.arrivalbox #span2 {		
+	.arrivalbox #span2 {
+		display: block;		
 		font-size: 2rem;
 		font-weight: bold;
-		margin-top: 0.25rem;
-		margin-left: 3rem;
-		margin-bottom: 2rem;
+		
 
+	}
+
+	nav {	
+		width: 100%;
+		background-color:firebrick;
+	}
+
+	nav ul {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0.75em 0; 
 	}
