@@ -109,5 +109,24 @@ header {
 		background-color:black;
 		justify-content: space-around;
 	}
-	
 
+	.lochours {
+		display: flex;
+		justify-content: space-between;
+		margin:3em 0 0 0;
+		
+	}
+	
+	.lochours .box {
+		display: block;		
+		width: 35%;
+		color:black;
+
+	}
+
+	.lochours .info {
+		display: block;
+		background-color: black;
+		color:white;
+		padding:1em 2em;
+	}
